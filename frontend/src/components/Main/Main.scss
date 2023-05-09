@@ -66,3 +66,23 @@ main {
   justify-content: space-around;
   align-items: center;
 }
+
+@media only screen and (max-width: 1100px) {
+  .floating-text {
+    flex-direction: column;
+  }
+  .title {
+    margin: 30px;
+  }
+  .message {
+    width: 90%;
+    margin: 50px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100vh;
+  }
+  .my-pic {
+    width: 400px;
+    height: 50vh;
+  }
+}

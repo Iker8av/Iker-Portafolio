@@ -13,7 +13,7 @@ export default function Main() {
           width={500}
         />
         <div className="floating-text">
-          <div>
+          <div className="title">
             <h2>Hello World!</h2>
             <h1>I am Iker Ochoa</h1>
             <h3>and this is my portafolio.</h3>
