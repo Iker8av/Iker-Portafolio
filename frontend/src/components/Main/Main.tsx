@@ -8,9 +8,10 @@ export default function Main() {
       <main>
         <Image
           className="my-pic"
-          src={require("../../../public/me.PNG")}
+          src={"../../../public/me.PNG"}
           alt="iker pic"
           width={500}
+          height={500}
         />
         <div className="floating-text">
           <div className="title">
