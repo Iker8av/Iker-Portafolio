@@ -14,7 +14,7 @@ export default function Home() {
   React.useEffect(() => {
     (async () => {
       await axios
-        .get("https://morning-wave-88837.herokuapp.com//getMessage")
+        .get("https://morning-wave-88837.herokuapp.com/getMessage")
         .then((res) => {
           setExperiences(res.data.experiences);
           setProjects(res.data.projects);
