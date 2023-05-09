@@ -8,8 +8,9 @@ export default function Main() {
       <main>
         <Image
           className="my-pic"
-          src={require("../../../public/personIcon.webp")}
+          src={require("../../../public/me.PNG")}
           alt="iker pic"
+          width={500}
         />
         <div className="floating-text">
           <div>
