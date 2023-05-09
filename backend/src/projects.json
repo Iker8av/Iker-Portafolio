@@ -7,7 +7,13 @@
       "description": "During summer 2022 I was an Meta University Intern for 10 weeks, I was working in the Web track. I learned NodeJS, React, Express and Parse.",
       "technologies": "HTML, CSS, Javascript, React, NodeJS, ExpressJS, Back4App, Parse & Axios.",
       "highlights": "Productivity & learning speed",
-      "galery": ["https://i.imgur.com/JsH4HSa.jpg"],
+      "galery": [
+        "https://i.imgur.com/JsH4HSa.jpg",
+        "https://i.imgur.com/sgmScs0.jpg",
+        "https://i.imgur.com/duBmlha.jpg",
+        "https://i.imgur.com/dl8CxGJ.jpg",
+        "https://i.imgur.com/5lrmFk5.jpg"
+      ],
       "links": [""]
     }
   ],
@@ -25,11 +31,15 @@
     {
       "name": "Roll n' Score",
       "date": "June 2022 - In development",
-      "frontimg": "https://i.imgur.com/1ile8FP.jpg",
+      "frontimg": "https://i.imgur.com/Fy3kbof.jpg",
       "description": "A multiplayer video game that consists of 10 players divided in 2 teams moving on a gravityfree field trying to score as many goals as possible in 3 minutes.",
       "technologies": "Unity, C# & Netcode.",
       "highlights": "Peer-to-peer Multiplayer & Relay server",
-      "galery": ["https://i.imgur.com/1ile8FP.jpg"],
+      "galery": [
+        "https://i.imgur.com/Fy3kbof.jpg",
+        "https://i.imgur.com/1ile8FP.jpg",
+        "https://i.imgur.com/c3rPgHe.jpg"
+      ],
       "links": [""]
     },
     {
@@ -39,7 +49,13 @@
       "description": "Game where you will put your reflexes to the test avoiding the colored bars, You will find 2 basic modes. 'Normal' and 'Hardcore', where you will simply dodge the colored bars, you will also find a section with more modes, each one will have a different challenge or obstacle.",
       "technologies": "Unity & C#.",
       "highlights": "My first mobile game at 16 years old",
-      "galery": ["https://i.imgur.com/1p9ABku.png"],
+      "galery": [
+        "https://i.imgur.com/1p9ABku.png",
+        "https://i.imgur.com/GimlgN8.png",
+        "https://i.imgur.com/PLbLVNi.png",
+        "https://i.imgur.com/feTyHKq.png",
+        "https://i.imgur.com/Qsw1dV5.png"
+      ],
       "links": [
         "https://play.google.com/store/apps/details?id=com.IkerOchoa.ProjectColorNeon&pli=1"
       ]

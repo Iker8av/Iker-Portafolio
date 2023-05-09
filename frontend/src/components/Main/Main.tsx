@@ -1,7 +1,6 @@
 import React from "react";
 import "./Main.scss";
 import Image from "next/image";
-// import me from "../../../public/me.png";
 
 export default function Main() {
   return (
@@ -13,13 +12,6 @@ export default function Main() {
             backgroundImage: `url(${"https://i.imgur.com/ZmzSxij.png"})`,
           }}
         />
-        {/* <Image
-          className="my-pic"
-          src={me}
-          alt="iker pic"
-          width={500}
-          height={500}
-        /> */}
         <div className="floating-text">
           <div className="title">
             <h2>Hello World!</h2>

@@ -13,12 +13,10 @@ export default function Home() {
 
   React.useEffect(() => {
     (async () => {
-      await axios
-        .get("https://morning-wave-88837.herokuapp.com/getMessage")
-        .then((res) => {
-          setExperiences(res.data.experiences);
-          setProjects(res.data.projects);
-        });
+      await axios.get("http://localhost:3030/getMessage").then((res) => {
+        setExperiences(res.data.experiences);
+        setProjects(res.data.projects);
+      });
     })();
   }, []);
 
