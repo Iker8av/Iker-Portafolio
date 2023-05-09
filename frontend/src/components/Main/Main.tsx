@@ -1,14 +1,16 @@
 import React from "react";
 import "./Main.scss";
 import Image from "next/image";
+import me from "../../../public/me.png";
 
 export default function Main() {
   return (
     <>
       <main>
+        {/* <div className="my-pic" style={{ backgroundImage: `url(${me.src})` }} /> */}
         <Image
           className="my-pic"
-          src={require("../../../public/me.PNG")}
+          src={me}
           alt="iker pic"
           width={500}
           height={500}
