@@ -6,26 +6,21 @@ import bg from "../../../public/meta.jpg";
 import axios from "axios";
 import PopUp from "../PopUp/PopUp";
 
-export default function Projects() {
-  const [data, setData] = React.useState<Project[] | null>(null);
+interface Props {
+  data: any;
+}
+
+export default function Projects({ data }: Props) {
   const [projectSelected, setProjectSelected] = React.useState<Project | null>(
     null
   );
-
-  React.useEffect(() => {
-    (async () => {
-      await axios.get("http://localhost:3030/getMessage").then((res) => {
-        setData(res.data.projects);
-      });
-    })();
-  }, []);
 
   return (
     <div className="projects">
       <h1>Projects</h1>
       <div className="grid-wrapper">
         {data &&
-          data.map((item, i) => {
+          data.map((item: any, i: number) => {
             return (
               <ProjectCard
                 key={i}
@@ -56,12 +51,12 @@ interface Project {
   links: [string];
 }
 
-interface Props {
+interface ProjectCardProps {
   project: Project;
   setProjectSelected: any;
 }
 
-export function ProjectCard({ project, setProjectSelected }: Props) {
+export function ProjectCard({ project, setProjectSelected }: ProjectCardProps) {
   return (
     <div
       className="project-cards"
