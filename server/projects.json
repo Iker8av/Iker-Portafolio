@@ -1,0 +1,68 @@
+{
+  "experiences": [
+    {
+      "name": "Meta University Internship",
+      "date": "June 2022 - August 2022",
+      "frontimg": "https://i.imgur.com/JsH4HSa.jpg",
+      "description": "During summer 2022 I was an Meta University Intern for 10 weeks, I was working in the Web track. I learned NodeJS, React, Express and Parse.",
+      "technologies": "HTML, CSS, Javascript, React, NodeJS, ExpressJS, Back4App, Parse & Axios.",
+      "highlights": "Productivity & learning speed",
+      "galery": ["https://i.imgur.com/JsH4HSa.jpg"],
+      "links": [""]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Life & Health",
+      "date": "June 2022 - August 2022",
+      "frontimg": "https://i.imgur.com/wvQ53bg.jpg",
+      "description": "Life & Helath is an app where you will be able to record personal health information, illnesses, appointments, important contacts, selected first aid information and can match your illnesses with a specialist within your location radius.",
+      "technologies": "HTML, CSS, Javascript, React, NodeJS, ExpressJS, Back4App, Parse & Axios.",
+      "highlights": "Productivity & learning speed",
+      "galery": ["https://i.imgur.com/wvQ53bg.jpg"],
+      "links": [""]
+    },
+    {
+      "name": "Roll n' Score",
+      "date": "June 2022 - In development",
+      "frontimg": "https://i.imgur.com/1ile8FP.jpg",
+      "description": "A multiplayer video game that consists of 10 players divided in 2 teams moving on a gravityfree field trying to score as many goals as possible in 3 minutes.",
+      "technologies": "Unity, C# & Netcode.",
+      "highlights": "Peer-to-peer Multiplayer & Relay server",
+      "galery": ["https://i.imgur.com/1ile8FP.jpg"],
+      "links": [""]
+    },
+    {
+      "name": "Fast Colors",
+      "date": "May 2020 - January 2022",
+      "frontimg": "https://i.imgur.com/1p9ABku.png",
+      "description": "Game where you will put your reflexes to the test avoiding the colored bars, You will find 2 basic modes. 'Normal' and 'Hardcore', where you will simply dodge the colored bars, you will also find a section with more modes, each one will have a different challenge or obstacle.",
+      "technologies": "Unity & C#.",
+      "highlights": "My first mobile game at 16 years old",
+      "galery": ["https://i.imgur.com/1p9ABku.png"],
+      "links": [
+        "https://play.google.com/store/apps/details?id=com.IkerOchoa.ProjectColorNeon&pli=1"
+      ]
+    },
+    {
+      "name": "Home Security System",
+      "date": "March 2022",
+      "frontimg": "https://i.imgur.com/M6q4pM9.jpg",
+      "description": "During a wek in my college, my teammates and I developed a Web App able to track your home security system from your phone.",
+      "technologies": "React Native, Firebase Realtime Database, NodeMCU & C++.",
+      "highlights": "Work speed, Work team & Productivity.",
+      "galery": ["https://i.imgur.com/M6q4pM9.jpg"],
+      "links": ["https://hs-iot-aa7d2.web.app/"]
+    },
+    {
+      "name": "Project Pixel Light (working title)",
+      "date": "March 2021 - In development",
+      "frontimg": "https://i.imgur.com/to1QegH.png",
+      "description": "It's a platforming-fighting 3D game that sports a graphic design known as “HD-2D”, consisting of 2D characters or sprites interacting in a 3D world.",
+      "technologies": "Unity & C#.",
+      "highlights": "3D Fighting system & Like-Super Mario Bros Games Physics",
+      "galery": ["https://i.imgur.com/to1QegH.png"],
+      "links": [""]
+    }
+  ]
+}
