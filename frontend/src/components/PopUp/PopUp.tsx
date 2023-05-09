@@ -48,7 +48,7 @@ export default function PopUp({ project, setProject }: Props) {
           <p>{project.technologies}</p>
         </div>
         <div className="row">
-          <h3>Highlight work:</h3>
+          <h3>Highlighted work:</h3>
           <p>{project.highlights}</p>
         </div>
         <h2>Galery:</h2>

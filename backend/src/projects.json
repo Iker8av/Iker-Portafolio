@@ -48,7 +48,7 @@
       "name": "Home Security System",
       "date": "March 2022",
       "frontimg": "https://i.imgur.com/M6q4pM9.jpg",
-      "description": "During a wek in my college, my teammates and I developed a Web App able to track your home security system from your phone.",
+      "description": "During a week in my college, my teammates and I developed a Web App able to track your home security system from your phone.",
       "technologies": "React Native, Firebase Realtime Database, NodeMCU & C++.",
       "highlights": "Work speed, Work team & Productivity.",
       "galery": ["https://i.imgur.com/M6q4pM9.jpg"],
