@@ -8,7 +8,7 @@ export default function Main() {
       <main>
         <Image
           className="my-pic"
-          src={"../../../public/me.PNG"}
+          src={require("../../../public/me.PNG")}
           alt="iker pic"
           width={500}
           height={500}
