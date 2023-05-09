@@ -1,5 +1,8 @@
+@import "../../app/globals.scss";
+
 .projects {
   padding: 30px;
+  background: radial-gradient($blue-bg1, $blue-bg2);
 
   .grid-wrapper {
     margin-top: 40px;
@@ -16,6 +19,7 @@
   aspect-ratio: 1/1;
   border-radius: 20px;
   cursor: pointer;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 
   transform: scale(1, 1);
   transition: transform 0.2s ease-in-out;

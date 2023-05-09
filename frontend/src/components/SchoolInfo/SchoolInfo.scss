@@ -3,14 +3,14 @@
 $schoolInfo-bg: rgb(30, 34, 51);
 
 .school-info {
-    background-color: $blue-bg2;
-    padding: 30px;
+  background: linear-gradient($blue-bg2, $blue-bg1, $blue-bg2);
+  padding: 30px;
 
-    .row-boxes {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-between;
-        margin-top: 15px;
-    }
+  .row-boxes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
 }

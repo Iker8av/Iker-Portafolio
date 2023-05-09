@@ -2,7 +2,7 @@
 
 .experience {
   padding: 30px;
-
+  background: linear-gradient($blue-bg2, $blue-bg1, $blue-bg2);
   & > h1 {
     width: 100%;
   }
@@ -20,6 +20,7 @@
     background-size: cover;
     transform: scale(1, 1);
     transition: transform 0.2s ease-in-out;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 
     &:hover {
       transform: scale(1.025, 1.025);
