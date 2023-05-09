@@ -12,8 +12,7 @@ main {
   justify-content: center;
   align-items: flex-end;
   margin: auto;
-  background: radial-gradient(ellipse at bottom, $blue-bg1, transparent),
-    radial-gradient(ellipse at top, $blue-bg2, transparent);
+  background: radial-gradient(at 50% 100%, $blue-bg1, $blue-bg2);
   text-shadow: 0px 5px 30px #000000;
 
   h1 {
