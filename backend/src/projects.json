@@ -15,6 +15,24 @@
         "https://i.imgur.com/5lrmFk5.jpg"
       ],
       "links": [""]
+    },
+    {
+      "name": "Meta Software Engineer Internship",
+      "date": "June 2023 - September 2023",
+      "frontimg": "https://i.imgur.com/ZvaifJ3.jpg",
+      "description": "During summer 2022 I was an Meta University Intern for 10 weeks, I was working in the Web track. Developed a health web app that stood out for being able to match multiple diseases with specialties of doctors in order to treat them.",
+      "technologies": "React Native, Redux, GraphQL & Unity",
+      "highlights": "Productivity, Initiative and Independence & learning speed",
+      "galery": [
+        "https://i.imgur.com/cTiqXLe.jpg",
+        "https://i.imgur.com/XQjOkj6.jpg",
+        "https://i.imgur.com/TNlbsnd.jpg",
+        "https://i.imgur.com/y3H6lWv.jpg",
+        "https://i.imgur.com/7jGcukI.jpg",
+        "https://i.imgur.com/csYhIgy.jpg",
+        "https://i.imgur.com/xHS1lmb.jpg"
+      ],
+      "links": [""]
     }
   ],
   "projects": [

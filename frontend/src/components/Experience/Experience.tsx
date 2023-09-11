@@ -59,7 +59,7 @@ export function ExperienceCard({
   return (
     <div
       className="banner-container"
-      style={{ backgroundImage: `url(${bg.src})` }}
+      style={{ backgroundImage: `url(${experience.frontimg})` }}
       onClick={() => setProjectSelected(experience)}
     >
       <div className="banner-bg">
