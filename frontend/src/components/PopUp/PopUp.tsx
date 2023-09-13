@@ -51,7 +51,7 @@ export default function PopUp({ project, setProject }: Props) {
           <h3>Highlighted work:</h3>
           <p>{project.highlights}</p>
         </div>
-        <h2>Galery:</h2>
+        <h2>Gallery:</h2>
         <div className="galery-grid">
           {project.galery.map((item) => {
             return (

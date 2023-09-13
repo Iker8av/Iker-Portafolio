@@ -22,6 +22,7 @@
     border-radius: 20px;
     padding: 30px;
     overflow: scroll;
+    background: radial-gradient(at 50% 50%, $blue-bg1, $blue-bg2);
 
     & > p {
       margin: 25px 0;
