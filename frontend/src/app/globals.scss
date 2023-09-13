@@ -2,6 +2,7 @@ $red: rgb(244, 10, 69);
 $red-active: rgb(206, 7, 57);
 $blue-bg1: rgb(42, 48, 78);
 $blue-bg2: rgb(23, 23, 49);
+$background: rgb(244, 245, 255);
 
 * {
   box-sizing: border-box;
@@ -12,6 +13,7 @@ $blue-bg2: rgb(23, 23, 49);
 
 html,
 body {
+  background: radial-gradient(at 100% 100%, $blue-bg1, $blue-bg2);
   max-width: 100vw;
   overflow-x: hidden;
 }

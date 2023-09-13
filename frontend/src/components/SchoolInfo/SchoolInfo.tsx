@@ -31,8 +31,8 @@ export default function SchoolInfo() {
         <div style={{ width: "100%" }}>
           <BoxContainers
             title="GPA:"
-            info="3.7"
-            details="(untill 3rd semester)"
+            info="4.0"
+            details="(until 4th semester)"
           ></BoxContainers>
         </div>
       </div>

@@ -6,12 +6,15 @@ export default function Main() {
   return (
     <>
       <main>
-        <div
+        {/* 
+          //TODO Add Photo 
+        */}
+        {/* <div
           className="my-pic"
           style={{
             backgroundImage: `url(${"https://i.imgur.com/ZmzSxij.png"})`,
           }}
-        />
+        /> */}
         <div className="floating-text">
           <div className="title">
             <h2>Hello World!</h2>
@@ -19,10 +22,7 @@ export default function Main() {
             <h3>and this is my portafolio.</h3>
           </div>
           <div className="message">
-            <h4>
-              "The only way to learn is by living, everything happens for some
-              reason."
-            </h4>
+            <h4>"Keep learning, keep growing"</h4>
           </div>
         </div>
       </main>

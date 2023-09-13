@@ -2,7 +2,6 @@
 
 .experience {
   padding: 30px;
-  background: linear-gradient($blue-bg2, $blue-bg1, $blue-bg2);
   & > h1 {
     width: 100%;
   }
@@ -23,7 +22,7 @@
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 
     &:hover {
-      transform: scale(1.025, 1.025);
+      transform: scale(1.01, 1.01);
     }
 
     .experience-banner {
