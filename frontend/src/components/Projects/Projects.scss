@@ -2,14 +2,22 @@
 
 .projects {
   padding: 30px;
-  //  radial-gradient($blue-bg1, $blue-bg2);
+
+  .title {
+    transition-delay: 1s;
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+
+    &.appeared {
+      opacity: 1;
+    }
+  }
 
   .grid-wrapper {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
-    // grid-auto-rows: minmax(100px, auto);
   }
 
   @media only screen and (max-width: 1100px) {
@@ -28,6 +36,17 @@
     .grid-wrapper {
       grid-template-columns: repeat(1, 1fr);
     }
+  }
+}
+
+.card-wrapper {
+  transform: scale(0.5);
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+
+  &.appeared {
+    transform: scale(1);
+    opacity: 1;
   }
 }
 
