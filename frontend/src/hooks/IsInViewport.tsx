@@ -1,5 +1,4 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import "intersection-observer";
 
 export default function useIsInViewport(
   ref: React.MutableRefObject<any>,
