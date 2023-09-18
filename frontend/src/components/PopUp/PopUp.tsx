@@ -27,6 +27,7 @@ export default function PopUp({ project, setProject }: Props) {
 
   return (
     <div className="popup">
+      <div className="popup-bg" onClick={() => setProject(null)} />
       <div className="popup-container">
         <div className="popup-header">
           <div>
