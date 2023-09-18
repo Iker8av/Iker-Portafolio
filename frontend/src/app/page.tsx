@@ -13,10 +13,18 @@ export default function Home() {
 
   React.useEffect(() => {
     (async () => {
-      await axios.get("http://localhost:3030/getMessage").then((res) => {
-        setExperiences(res.data.experiences);
-        setProjects(res.data.projects);
-      });
+      await axios
+        .get(
+          location.hostname === "localhost" ||
+            location.hostname === "127.0.0.1" ||
+            location.hostname === ""
+            ? "https://morning-wave-88837.herokuapp.com/getMessage"
+            : "http://localhost:3030/getMessage"
+        )
+        .then((res) => {
+          setExperiences(res.data.experiences);
+          setProjects(res.data.projects);
+        });
     })();
   }, []);
 
