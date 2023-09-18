@@ -6,7 +6,6 @@ import Main from "../components/Main/Main";
 import SchoolInfo from "../components/SchoolInfo/SchoolInfo";
 import Projects from "@/components/Projects/Projects";
 import axios from "axios";
-import "intersection-observer";
 
 export default function Home() {
   const [projects, setProjects] = React.useState<any | null>(null);
