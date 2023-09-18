@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import "intersection-observer";
 
 export default function useIsInViewport(
   ref: React.MutableRefObject<any>,
@@ -7,15 +8,11 @@ export default function useIsInViewport(
   const [isIntersecting, setIsIntersecting] = useState(false);
   const [isIntersectingOnce, setIsIntersectingOnce] = useState(false);
 
-  const observer = useMemo(
-    () =>
-      new IntersectionObserver(([entry]) =>
-        setIsIntersecting(entry.isIntersecting)
-      ),
-    []
-  );
-
   useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) =>
+      setIsIntersecting(entry.isIntersecting)
+    );
+
     const currentRef = ref.current;
 
     if (currentRef) {
@@ -24,7 +21,7 @@ export default function useIsInViewport(
         observer.unobserve(currentRef);
       };
     }
-  }, [observer, ref.current]); // Only include ref.current as a dependency
+  }, [ref.current]); // Only include ref.current as a dependency
 
   if (!isIntersectingOnce && isIntersecting) {
     setState && setState(true);
