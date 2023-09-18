@@ -15,11 +15,9 @@ export default function Home() {
     (async () => {
       await axios
         .get(
-          location.hostname === "localhost" ||
-            location.hostname === "127.0.0.1" ||
-            location.hostname === ""
-            ? "https://morning-wave-88837.herokuapp.com/getMessage"
-            : "http://localhost:3030/getMessage"
+          location.hostname === "localhost"
+            ? "http://localhost:3030/getMessage"
+            : "https://morning-wave-88837.herokuapp.com/getMessage"
         )
         .then((res) => {
           setExperiences(res.data.experiences);
